@@ -1,0 +1,30 @@
+{
+  "name": "uppics",
+  "version": "1.0.0",
+  "description": "A K8S-native Microservice to upload pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasances/uppics.git"
+  },
+  "keywords": [
+    "pictures",
+    "upload"
+  ],
+  "author": "nicolasances",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasances/uppics/issues"
+  },
+  "homepage": "https://github.com/nicolasances/uppics#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-busboy": "0.0.2",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "path": "^0.12.7"
+  }
+}
