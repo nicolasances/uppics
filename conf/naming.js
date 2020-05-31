@@ -1,0 +1,3 @@
+
+exports.ENV_ROOT_FOLDER = 'UPPICS_ROOT';
+exports.ENV_TMP_FOLDER = 'UPPICS_TMP';
